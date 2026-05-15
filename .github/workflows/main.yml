@@ -1,0 +1,10 @@
+name : Publish Github Action Exmaple
+on :
+   push :
+     branches: [main]
+jobs :
+    demo :
+        run-on: unbutu-lastest
+        steps:
+          - name: checkout repository
+          run: echo "test.java"
